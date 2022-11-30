@@ -7,8 +7,8 @@ Světlá barva pozadí: #f2b880
 Tmavší barvy pozadí za obrázkem: #e88121
 Barva text v oranžovém pozadí: #752400
 */
-.container{
-  
+.hero-section{
+  background-color: #f2b880;
 }
 .header{
   
