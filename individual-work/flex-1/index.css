@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+   
+}
+
+body {
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    background-image: url(gradient.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+li, a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    background-color: rgba(38, 32, 63, 0.69);
+    
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+   
+}
+
+.card {
+    background-color: white;
+    width: 800px;
+    border-radius: 15px;
+    margin-top: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    box-shadow: 0px 0px 40px 20px rgba(255, 255, 255, 0.61);
+  
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.logo{
+    cursor: pointer;
+    opacity: 100%;
+
+
+   padding-left: 20px;
+  
+}
+
+
+.nav_links{
+    list-style: none;
+    opacity: 100%;
+    
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+  
+}
+.nav_links li a{
+   transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #0088a9;
+    transition: all 0.3s ease 0s;
+}
+
+
+
