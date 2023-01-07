@@ -61,34 +61,30 @@ body {
 }
   
 .hero-img { 
-    width: 50%;
+    width: 60%;
     display: flex;
     align-items: center;
     padding-right: 1%;
     padding-left: 6%;
-}
-  
+} 
 .hero-text {
     width: 50%;
     display: flex;
     align-items: center;
-    padding-left: 3%;
+    padding-left: 6%;
     padding-right: 7%;
     color: #752400;
     line-height: 30px;
-}
-  
+} 
 .text {
     margin: 80px 675px 50px 675px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
-}
-  
+} 
 .top-link-wrapper {
     display: flex;
     justify-content: right;
 }
-
 .top-link {
     position: fixed;
     display: flex;
@@ -97,8 +93,7 @@ body {
     width: 40px;
     bottom: 0;
     margin: 0 20px 20px 0;
-}
-  
+} 
 .top-link>a>img {
     height: 100%;
 }
