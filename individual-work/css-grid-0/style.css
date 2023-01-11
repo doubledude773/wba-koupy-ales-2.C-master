@@ -6,8 +6,11 @@
     grid-template-rows: repeat(4, 150px);
     justify-content: center;
     
-  }
+}
 
+h1{
+    margin-top: 15px;
+}
 .grid-item {
     padding: 30px;
     font-size: 30px;
