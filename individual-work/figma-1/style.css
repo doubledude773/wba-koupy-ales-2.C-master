@@ -17,9 +17,11 @@ body {
     width: 100px;
     height: 100px;
     left: 2000px;
-    top: 48px;
+    top: 70px;
     gap: 200px;
     font-size: x-large;
+    align-items: center;
+    
     
     
     
