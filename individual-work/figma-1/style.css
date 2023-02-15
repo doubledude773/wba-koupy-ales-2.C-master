@@ -1,52 +1,43 @@
 body {
     margin: 0;
+}
+.main {
+    margin: 0;
     background-image: url(hero_image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    height: 100vh;
 }
 
 .header {
     display: flex;
-    height: 300px;
+    height: 20%;
     background-color: #cbc1b1;
 }
 .navbar {
     display: flex;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 2000px;
-    top: 70px;
-    gap: 200px;
-    font-size: x-large;
-    align-items: center;
-    
-    
-    
-    
-}
-
-    
+    width: 50%;
+    left: 50%;
+    top: 5%;
+    gap: 10%;
+    font-size: small;
+    align-items: center;  
+}   
 .navbar h1:hover {
    cursor: pointer;
    background-color: lightslategray;
-   height: 100%;
-   
-   
+   height: 100%;  
 }
-
 .herosection{
     background-color: rgba(108, 122 , 137, 0.3);
     position: absolute;
-    width: 1000px;
-    height: 600px;
-    right: 30px;
+    width: 40%;
+    height: 45%;
+    right: 5%;
     top: 50%;
-    text-align: center;
-   
+    text-align: center;   
 }
-
 .herosection p{
     width: 573.53px;
     height: 120px;
@@ -65,5 +56,28 @@ body {
     color: #F8F7EC;
     
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
+}
+.bottomsec{
+   margin: 8%;
+   text-align: center;
+   font-size: medium;
+}
+.footer{
+    font-size:x-small;
+    background-color: #cbc1b1;
+    padding: 2%;
+    text-align: center;
+}
+.bottomimg{
+    display: flex;
+    margin-top: 8%;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+}
+.bottomimg p{
+    display: flex;  
+}
+.bottomimg h1{
+    font-size: larger;
 }
