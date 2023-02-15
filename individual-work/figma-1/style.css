@@ -76,7 +76,8 @@ body {
     gap: 4%;
 }
 .bottomimg p{
-    display: flex;  
+    display: flex; 
+     
 }
 .bottomimg h1{
     font-size: larger;
