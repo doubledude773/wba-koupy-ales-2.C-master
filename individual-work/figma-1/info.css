@@ -22,9 +22,32 @@ body {
     height: 100%;  
 }
 .footer{
-    margin-top: 40%;
+    margin-top: 20%;
     font-size:x-small;
     background-color: #cbc1b1;
     padding: 2%;
     text-align: center;
+}
+.imgsec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 10%;
+    
+}
+.imgsec h1{
+    display: flex;
+    font-size: medium;  
+}
+.imgsec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 10%;
+}
+.imgsec2 h1{
+    display: flex;
+    font-size: medium;  
 }
