@@ -5,6 +5,8 @@ body {
     display: flex;
     height: 20%;
     background-color: #cbc1b1;
+    font-family: 'Lato';
+    font-style: normal;
 }
 .navbar {
     display: flex;
@@ -20,6 +22,8 @@ body {
     cursor: pointer;
     background-color: lightslategray;
     height: 100%;  
+    font-family: 'Lato';
+    font-style: normal;
 }
 .footer{
     margin-top: 40%;
@@ -27,4 +31,38 @@ body {
     background-color: #cbc1b1;
     padding: 2%;
     text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
 }
+.h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: large;
+}
+.conspace1{
+    display: flex;
+}
+.conspace1 > div{
+    margin-top: 7%;
+    background-color: #7C7474;
+    margin: 7%;
+    padding:1%;
+    font-size: 20px;
+    width: 80%;
+    background: rgba(38, 37, 40, 0.2);
+
+}
+.conspace2{
+    display: flex;
+    margin-top: -13%;
+}
+.conspace2 > div{
+
+    background-color: #7C7474;
+    margin: 7%;
+    padding:1%;
+    font-size: 20px;
+    width: 80%;
+    background: rgba(38, 37, 40, 0.2);
+}
+
