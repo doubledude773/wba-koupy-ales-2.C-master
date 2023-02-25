@@ -81,3 +81,19 @@ a:hover {
     background-color: transparent;
     text-decoration: none;
 }
+@media screen and (max-width: 500px) {
+    .imgsec{
+        flex-direction: column;
+        gap: 3%;
+    }
+    .imgsec2{
+        flex-direction: column;
+        gap: 3%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        font-size: x-small;
+        margin-top: -3%;
+    }
+}
